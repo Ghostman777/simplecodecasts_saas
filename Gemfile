@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 #Use postgresql as the database for production
@@ -45,6 +45,9 @@ gem 'spring', group: :development
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   #gem 'web-console', '~> 2.0'
+
+#installing arel to hopefully fix this error
+gem 'arel', '6.0.3'
 
 
 #end
