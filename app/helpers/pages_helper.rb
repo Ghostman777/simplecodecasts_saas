@@ -1,0 +1,2 @@
+module PaagesHelper
+end
