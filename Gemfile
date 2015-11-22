@@ -12,8 +12,8 @@ gem 'bootstrap-sass', '3.3.1'
 gem 'font-awesome-sass','4.2.0'
 #Use postgresql as the database for production
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+  gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
